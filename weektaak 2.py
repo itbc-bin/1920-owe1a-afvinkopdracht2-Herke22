@@ -19,3 +19,5 @@ percentage_GC = aantal_G + aantal_C / ACGT *100
 
 print ("percentage_GC", percentage_GC)
 
+print ("aantal nucleotide: ", ACGT)
+
