@@ -13,7 +13,7 @@ print ("aantal_G: ",aantal_G)
 aantal_T = sequentie.count(nucleotide_T)
 print ("aantal_T: ",aantal_T)
 
-ACGT = aantal_A + aantal_C + aantal_G + aantal_T
+ACGT = (aantal_A + aantal_C) + aantal_G + aantal_T
 
 percentage_GC = aantal_G + aantal_C / ACGT *100
 
